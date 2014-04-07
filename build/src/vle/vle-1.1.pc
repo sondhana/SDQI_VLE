@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: vle
+Description: VLE multimodelling and Simulation tools
+Requires: libxml-2.0 glibmm-2.4
+Version: 1.1.999
+Libs:	-L${libdir} -lvle-1.1
+Cflags: -I${includedir}/vle-1.1 -I/usr/include

@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gvle
+Description: GVLE the gui for VLE the multimodelling and Simulation tools
+Requires: gtkmm-2.4 cairomm-1.0 vle-1.1
+Version: 1.1.999
+Libs:	-L${libdir}  -lvle-1.1
+Cflags: -I${includedir}/vle-1.1 -I/usr/include

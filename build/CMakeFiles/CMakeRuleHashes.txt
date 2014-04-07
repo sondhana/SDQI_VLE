@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+b14fbd97f888961c86249e6a31108cc8 i18n/CMakeFiles/translations
+b14fbd97f888961c86249e6a31108cc8 i18n/CMakeFiles/translations_1
+150efa84d1eed082b15820df9f54766b i18n/fr.gmo
